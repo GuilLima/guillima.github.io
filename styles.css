@@ -1,0 +1,45 @@
+body {  /*Corpo da página*/
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #acacac;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+}
+
+.content {
+    text-align: center; /*Centraliza o texto*/
+}
+
+h1 {
+    margin-bottom: 85px; /*Espaço abaixo do título*/
+}
+
+.button-container {
+    display: flex;
+    flex-wrap: wrap; /*Faz os botões se moverem dependendo da resolução do navegador*/
+    gap: 15px; /*Espaço entre os botões*/
+    justify-content: center; /*Centraliza os botões*/
+}
+
+.button {
+    background-color: #b41111; /* Vermelho */
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px 32px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: #45a049; /* Verde */
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #000000; /*Preto*/
+}
